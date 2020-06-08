@@ -13,8 +13,13 @@
   }
 }
 
+h1 {
+  color: black;
+  margin: 10px;
+}
+
 .App-header {
-  background-color: #282c34;
+  background-color: #F8FDFA;
   min-height: 100vh;
   display: flex;
   flex-direction: column;
@@ -35,4 +40,50 @@
   to {
     transform: rotate(360deg);
   }
+}
+
+.picker{
+  display: table-row;
+  margin: 30px;
+  align-items: center;
+}
+
+.row {
+  display: table-row;
+  margin: 0px;
+  padding: 0px;
+}
+
+.colorbox {
+  width: 100%;
+  padding: 100px;
+  margin: 20px;
+  display: table-cell;
+}
+
+.container {
+  display: table;
+}
+
+.colorlabel {
+  color: black;
+  display: table-cell;
+  margin-bottom: 0px;
+  height: 20px;
+}
+
+.colorvalue {
+  margin-top: 0px;
+  color: black;
+  display: table-cell;
+}
+
+h6 {
+  font-size: 20px;
+  margin: 0px;
+}
+
+p {
+  font-size: 12px;
+  margin: 0px;
 }
